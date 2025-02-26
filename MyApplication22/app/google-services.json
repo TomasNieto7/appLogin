@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "14628558438",
+    "project_id": "loginappsmoviles-dc674",
+    "storage_bucket": "loginappsmoviles-dc674.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14628558438:android:b29778b080022214843fa7",
+        "android_client_info": {
+          "package_name": "com.desarrollo.myapplication2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9unT9AMSIs3UfGLQMFW29qiPf10AedMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14628558438:android:fb72ccc087531170843fa7",
+        "android_client_info": {
+          "package_name": "com.example.login33"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9unT9AMSIs3UfGLQMFW29qiPf10AedMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
