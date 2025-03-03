@@ -1,5 +1,6 @@
 package com.desarrollo.myapplication2
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -60,6 +61,9 @@ class MainActivity : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     Toast.makeText(this, "Login exitoso", Toast.LENGTH_SHORT).show()
+                    val intento = Intent(this, PantallaPrincipal::class.java)
+                    intento.putExtra("email", correo)
+                    startActivity(intento)
                 } else {
                     Toast.makeText(this, "Error: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
                 }
